@@ -7,7 +7,7 @@ import yaml
 from git import Repo
 from git.exc import GitCommandError
 
-from metamorph.lib.logging_conf import setup_logging
+from metamorph.lib.support_functions import setup_logging
 from argparse import ArgumentParser, ArgumentError
 
 
